@@ -106,7 +106,6 @@ variable "source_dest_check" {
 }
 
 variable "subnet_id" {
-  type = list
   description = "The VPC subnet the instance(s) will be assigned. Set in main.tf"
   default     = []
 }
