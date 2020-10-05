@@ -15,7 +15,7 @@ resource "aws_instance" "ec2_instance" {
     key_name                             = var.key_name
     monitoring                           = var.monitoring
     placement_group                      = var.placement_group
-    private_ip                           = element(tolist(var.private_ip), count.index)))
+    private_ip                           = element(tolist(var.private_ip), count.index)
     root_block_device {
         delete_on_termination = var.root_delete_on_termination
         encrypted             = var.encrypted
@@ -24,7 +24,7 @@ resource "aws_instance" "ec2_instance" {
         volume_type           = var.root_volume_type
     }
     source_dest_check      = var.source_dest_check
-    subnet_id              = element(tolist(var.subnet_id), count.index)))
+    subnet_id              = element(tolist(var.subnet_id), count.index)
     tenancy                = var.tenancy
     tags                   = merge(var.tags, map("Name", format("%s%01d", var.name, count.index + 1)))
     user_data              = var.user_data
