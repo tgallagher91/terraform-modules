@@ -68,7 +68,7 @@ variable "placement_group" {
 }
 
 variable "private_ip" {
-  type = string
+  type = list
   description = "Private IP address to associate with the instance in a VPC"
 }
 
