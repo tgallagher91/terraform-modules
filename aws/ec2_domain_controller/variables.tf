@@ -68,6 +68,7 @@ variable "placement_group" {
 }
 
 variable "private_ip" {
+  type = string
   description = "Private IP address to associate with the instance in a VPC"
   default     = []
 }
@@ -106,6 +107,7 @@ variable "source_dest_check" {
 }
 
 variable "subnet_id" {
+  type = list
   description = "The VPC subnet the instance(s) will be assigned. Set in main.tf"
   default     = []
 }
