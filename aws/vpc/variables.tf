@@ -38,10 +38,10 @@ variable "enable_firewall" {
   default     = false
 }
 
-variable "enable_nat_gateway" {
-  description = "should be true if you want to provision NAT Gateways for each of your private networks"
-  default     = true
-}
+# variable "enable_nat_gateway" {
+#   description = "should be true if you want to provision NAT Gateways for each of your private networks"
+#   default     = true
+# }
 
 variable "enable_s3_endpoint" {
   description = "should be true if you want to provision an S3 endpoint to the VPC"
@@ -105,10 +105,10 @@ variable "public_propagating_vgws" {
   default     = []
 }
 
-variable "single_nat_gateway" {
-  description = "should be true if you want to provision a single shared NAT Gateway across all of your private networks"
-  default     = false
-}
+# variable "single_nat_gateway" {
+#   description = "should be true if you want to provision a single shared NAT Gateway across all of your private networks"
+#   default     = false
+# }
 
 variable "tags" {
   description = "A map of tags to add to all resources"
