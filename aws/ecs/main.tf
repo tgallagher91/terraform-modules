@@ -5,7 +5,7 @@ resource "aws_ecs_cluster" "ecs" {
 
     setting {
         name = "containerInsights"
-        value = var.containerInsights ? "enabled" : "disabled"
+        value = var.container_insights ? "enabled" : "disabled"
     }
 
     tags = var.tags
