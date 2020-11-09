@@ -10,7 +10,7 @@ while almost all of the modules here were written by Zachary Hill of Think|Stack
 
 | Name | Version |
 |------|---------|
-| aws | n/a |
+| aws | >=3.13.0 |
 
 ## Inputs
 
