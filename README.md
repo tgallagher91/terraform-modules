@@ -1,7 +1,5 @@
 # Terraform Modules
 ------------
-https://www.thinkstack.co/
-
-author: Zachary Hill
-
-These terraform modules were created as part of a six month adoption of 'Infrastructure as Code' at Think|Stack. They serve as the basis to an iterative approach to managing infrastructure.
+Original author: Zachary Hill
+Continuing author: Thomas Gallagher
+These terraform modules were cloned from Think|Stack's terraform modules, originally authored by Zachary Hill. Continuing work on these modules is being done here by Thomas Gallagher.
