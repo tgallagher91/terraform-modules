@@ -1,7 +1,3 @@
-while almost all of the modules here were written by Zachary Hill of Think|Stack, this one was actually written by me! 
-
-## Requirements
-
 | Name | Version |
 |------|---------|
 | terraform | >= 0.12.0 |
@@ -10,7 +6,7 @@ while almost all of the modules here were written by Zachary Hill of Think|Stack
 
 | Name | Version |
 |------|---------|
-| aws | >=3.13.0 |
+| aws | >= 3.13.0 |
 
 ## Inputs
 

@@ -38,10 +38,10 @@ variable "enable_firewall" {
   default     = false
 }
 
-# variable "enable_nat_gateway" {
-#   description = "should be true if you want to provision NAT Gateways for each of your private networks"
-#   default     = true
-# }
+variable "enable_nat_gateway" {
+  description = "should be true if you want to provision NAT Gateways for each of your private networks"
+  default     = true
+}
 
 variable "enable_s3_endpoint" {
   description = "should be true if you want to provision an S3 endpoint to the VPC"
@@ -105,14 +105,14 @@ variable "public_propagating_vgws" {
   default     = []
 }
 
-# variable "single_nat_gateway" {
-#   description = "should be true if you want to provision a single shared NAT Gateway across all of your private networks"
-#   default     = false
-# }
+variable "single_nat_gateway" {
+  description = "should be true if you want to provision a single shared NAT Gateway across all of your private networks"
+  default     = false
+}
 
 variable "tags" {
   description = "A map of tags to add to all resources"
-  default     = {
+  default = {
     terraform   = "true"
     environment = "prod"
     project     = "core_infrastructure"
@@ -122,6 +122,10 @@ variable "tags" {
 variable "vpc_cidr" {
   description = "The CIDR block for the VPC"
   default     = "10.11.0.0/16"
+}
+
+variable "vpc_region" {
+  description = "The region for the VPC"
 }
 
 variable "workspaces_subnets_list" {
