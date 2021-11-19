@@ -1,6 +1,6 @@
 # Terraform Modules
 ------------
-Original author: Zachary Hill
+Original author: Zachary Hill | thinkstack.co
 
 Continuing author: Thomas Gallagher
 
