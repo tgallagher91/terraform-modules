@@ -1,8 +1,12 @@
 # Terraform Modules
 ------------
-Original author: Zachary Hill | https://www.thinkstack.co/ | https://www.linkedin.com/in/zachary-hill-5524257a/ | https://github.com/zachreborn
+Original author: 
 
-Continuing author: Thomas Gallagher | https://tgallagher12.medium.com/ | https://www.linkedin.com/in/thomasthecreator/ | https://github.com/tgallagher91
+Zachary Hill | https://www.thinkstack.co/ | https://www.linkedin.com/in/zachary-hill-5524257a/ | https://github.com/zachreborn
+
+Continuing author: 
+
+Thomas Gallagher | https://tgallagher12.medium.com/ | https://www.linkedin.com/in/thomasthecreator/ | https://github.com/tgallagher91
 
 Collaborators: 
 
