@@ -1,7 +1,7 @@
 variable "name" {
   type        = string
   description = "The name of the Session Manager."
-  default     = "slalom"
+  default     = "thinkstack"
 }
 
 variable "ssm_document_name" {
