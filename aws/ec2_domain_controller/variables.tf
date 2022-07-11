@@ -12,6 +12,12 @@ variable "number" {
   default     = 2
 }
 
+variable "enable_dhcp_options" {
+  description = "boolean to determine if DHCP options are enabled"
+  type        = bool    
+  default     = true
+}
+
 variable "domain_name" {
   description = "Domain name suffix to add to DHCP DNS"
 }
@@ -69,7 +75,7 @@ variable "placement_group" {
 
 variable "private_ip" {
   description = "Private IP address to associate with the instance in a VPC"
-  default     = []
+  default     = null
 }
 
 variable "region" {
