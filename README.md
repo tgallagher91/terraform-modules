@@ -181,19 +181,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- CONTACT -->
-## Contact
-
-Think|Stack - [![LinkedIn][linkedin-shield]][linkedin-url] - info@thinkstack.co
-
-Project Link: [https://github.com/thinkstack-co/terraform-modules](https://github.com/thinkstack-co/terraform-modules)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
@@ -205,18 +192,18 @@ Project Link: [https://github.com/thinkstack-co/terraform-modules](https://githu
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/thinkstack-co/terraform-modules.svg?style=for-the-badge
-[contributors-url]: https://github.com/thinkstack-co/terraform-modules/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/thinkstack-co/terraform-modules.svg?style=for-the-badge
-[forks-url]: https://github.com/thinkstack-co/terraform-modules/network/members
-[stars-shield]: https://img.shields.io/github/stars/thinkstack-co/terraform-modules.svg?style=for-the-badge
-[stars-url]: https://github.com/thinkstack-co/terraform-modules/stargazers
-[issues-shield]: https://img.shields.io/github/issues/thinkstack-co/terraform-modules.svg?style=for-the-badge
-[issues-url]: https://github.com/thinkstack-co/terraform-modules/issues
-[license-shield]: https://img.shields.io/github/license/thinkstack-co/terraform-modules.svg?style=for-the-badge
-[license-url]: https://github.com/thinkstack-co/terraform-modules/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/tgallagher91/terraform-modules.svg?style=for-the-badge
+[contributors-url]: https://github.com/tgallagher91/terraform-modules/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/tgallagher91/terraform-modules.svg?style=for-the-badge
+[forks-url]: https://github.com/tgallagher91/terraform-modules/network/members
+[stars-shield]: https://img.shields.io/github/stars/tgallagher91/terraform-modules.svg?style=for-the-badge
+[stars-url]: https://github.com/tgallagher91/terraform-modules/stargazers
+[issues-shield]: https://img.shields.io/github/issues/tgallagher91/terraform-modules.svg?style=for-the-badge
+[issues-url]: https://github.com/tgallagher91/terraform-modules/issues
+[license-shield]: https://img.shields.io/github/license/tgallagher91/terraform-modules.svg?style=for-the-badge
+[license-url]: https://github.com/tgallagher91/terraform-modules/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/company/thinkstack/
+[linkedin-url]: https://www.linkedin.com/in/thomasthecreator/
 [product-screenshot]: /images/screenshot.webp
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
